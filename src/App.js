@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Copy from './components/Copy';
+// import Focus from './components/Focus';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>useRef</h1>
+      <Copy />
+      {/* <Focus /> */}
     </div>
   );
 }
